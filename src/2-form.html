@@ -4,11 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
+    <link rel="stylesheet" href="./css/2-form.css">
 </head>
 <body>
     <section>
-        <a href="./index.html">Go to back</a>
-        <h1>Form</h1>
+        <a href="./index.html" class="link-go-to-home">Go to home</a>
+    </section>
+    <section>
+<form class="feedback-form" autocomplete="off">
+    <label>
+        Email
+        <input type="email" name="email" autofocus />
+    </label>
+    <label>
+        Message
+        <textarea name="message" rows="8"></textarea>
+    </label>
+    <button type="submit">Submit</button>
+</form>
+
     </section>
     <script type="module" src="./js/1-gallery.js"></script>
 </body>
