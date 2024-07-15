@@ -1,33 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form</title>
     
-  <script type="module" crossorigin src="/goit-js-hw-09/assets/vendor-10cb7c31.js"></script>
-  <script type="module" crossorigin src="/goit-js-hw-09/assets/1-gallery-060f5915.js"></script>
-  <link rel="stylesheet" href="/goit-js-hw-09/assets/vendor-a088063d.css">
-  <link rel="stylesheet" href="/goit-js-hw-09/assets/2-form-84e1c56b.css">
-</head>
-<body>
+    <script type="module" crossorigin src="/goit-js-hw-09/commonHelpers2.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-09/assets/modulepreload-polyfill-3cfb730f.js">
+    <link rel="stylesheet" href="/goit-js-hw-09/assets/2-form-41e6b3a0.css">
+  </head>
+  <body>
     <section>
-        <a href="./index.html" class="link-go-to-home">Go to home</a>
+      <a href="./index.html" class="link-go-to-home">Go to home</a>
     </section>
-    <section>
-<form class="feedback-form" autocomplete="off">
-    <label>
-        Email
-        <input type="email" name="email" autofocus />
-    </label>
-    <label>
-        Message
-        <textarea name="message" rows="8"></textarea>
-    </label>
-    <button type="submit">Submit</button>
-</form>
-
+    <section class="container">
+      <form class="feedback-form" autocomplete="off">
+        <label>
+          Email
+          <input type="email" name="email" autofocus />
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="8"></textarea>
+        </label>
+        <button type="submit">Submit</button>
+      </form>
     </section>
     
-</body>
+  </body>
 </html>
