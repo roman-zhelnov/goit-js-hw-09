@@ -32,9 +32,9 @@ const saveData = () => {
 
 form.addEventListener('input', event => {
   if (event.target.name === 'email') {
-    formData.email = event.target.value;
+    formData.email = event.target.value.trim();
   } else if (event.target.name === 'message') {
-    formData.message = event.target.value;
+    formData.message = event.target.value.trim();
   }
   saveData();
 });
